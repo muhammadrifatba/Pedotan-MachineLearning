@@ -36,9 +36,10 @@ Ideal Farm Detection | 96.56% | 98.75%
 
 
 ## Run the ipynb in Google Colab
+Dont need to install anything just follow the steps below
 1. Download or clone this repository.
 2. Open google colab
-3. Import the ,ipynb file
+3. Import the ipynb file
 4. Run the code
 
 ## Run in Local
