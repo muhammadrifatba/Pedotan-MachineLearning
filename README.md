@@ -69,4 +69,9 @@ Dont need to install anything just follow the steps below
   ```
 4. Run all the code
 
+## References 
+1. M. S. Hasan Talukder, A. Krishno Sarkar and M. Nuhi-Alamin, "An Improved Model for Nutrient Deficiency Diagnosis of Rice Plant by Ensemble Learning," 2022 4th International Conference on Sustainable Technologies for Industry 4.0 (STI), Dhaka, Bangladesh, 2022, pp. 1-6, doi: 10.1109/STI56238.2022.10103280.
+2. B. Srinivasa Rao, R. Vijaya Kumar Reddy, D. Manogna, K. Akhil and D. D. Sree, "Identification of Nutrient Deficiency in Rice Leaves using DenseNet-121," 2022 International Conference on Edge Computing and Applications (ICECAA), Tamilnadu, India, 2022, pp. 1573-1578, doi: 10.1109/ICECAA55415.2022.9936191.
+3. K. Liu and X. Zhang, "PiTLiD: Identification of Plant Disease From Leaf Images Based on Convolutional Neural Network," in IEEE/ACM Transactions on Computational Biology and Bioinformatics, vol. 20, no. 2, pp. 1278-1288, 1 March-April 2023, doi: 10.1109/TCBB.2022.3195291.
+4. X. Guan, "A Novel Method of Plant Leaf Disease Detection Based on Deep Learning and Convolutional Neural Network," 2021 6th International Conference on Intelligent Computing and Signal Processing (ICSP), Xi'an, China, 2021, pp. 816-819, doi: 10.1109/ICSP51882.2021.9408806.
 
