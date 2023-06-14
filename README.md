@@ -28,6 +28,23 @@ We have 3 model in this repository
 - [Ideal Farm Detection](https://github.com/akbarsigit/Pedotan-MachineLearning/blob/main/cropCNN.ipynb). Using  [Nutrient-Deficiency-Symptoms-in-Rice](https://www.kaggle.com/datasets/guy007/nutrientdeficiencysymptomsinrice)
 
 ## Model Performance
+### Plant Disease Detection
+#### Model Training Performance
+![disease_model](https://github.com/akbarsigit/Pedotan-MachineLearning/assets/72943849/3bc7834a-53fd-4500-bab7-7bbf054b112e)
+#### Performance after Fine Tuning
+![finetuning_disease](https://github.com/akbarsigit/Pedotan-MachineLearning/assets/72943849/021fff2b-adc2-4ee6-8794-ae958849b807)
+
+### Nutrient Deficiency
+#### Model Training Performance
+![image](https://github.com/akbarsigit/Pedotan-MachineLearning/assets/72943849/acf1c620-55b9-4073-b5fa-f7eff95ffc8d)
+#### Performance after Fine Tuning
+![image](https://github.com/akbarsigit/Pedotan-MachineLearning/assets/72943849/517c78e3-7b5d-4db4-9eb0-be574303d9b0)
+
+### Ideal Farm Detection
+#### Model Training Performance
+![image](https://github.com/akbarsigit/Pedotan-MachineLearning/assets/72943849/bd0a0f40-e9aa-4dc9-89b0-4f37746bbc8c)
+
+### Performance Summary
 Models | Accuracy | Val Accuracy
 ------------ | ------------- | -------------
 Plant Disease Detection | 97.02 % | 96.37 %
