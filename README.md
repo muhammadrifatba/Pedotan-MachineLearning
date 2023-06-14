@@ -22,10 +22,10 @@ We have 3 model in this repository
 (image classification) use InceptionV3 as the base model for transfer learning that taken from [Keras](https://keras.io/api/applications/inceptionv3/). The model also contain additional layer that received ouput from based model. The model had 36 node to define its 36 classification category.  [Plant Disease Classification Merged Dataset](https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset) that contain 18.96 GB images of various plant disease. 
 
 ### Nutrient Deficiency Detection
-- [Nutrient Deficiency Detection](https://github.com/akbarsigit/Pedotan-MachineLearning/blob/main/leafNutrient.ipynb)
+- [Nutrient Deficiency Detection](https://github.com/akbarsigit/Pedotan-MachineLearning/blob/main/leafNutrient.ipynb). Using Densenet-121 for the base model and additional layer to  [Crop Recommendation Dataset](https://www.kaggle.com/datasets/siddharthss/crop-recommendation-dataset) 
   
 ### Ideal Farm Detection
-- [Ideal Farm Detection](https://github.com/akbarsigit/Pedotan-MachineLearning/blob/main/cropCNN.ipynb)
+- [Ideal Farm Detection](https://github.com/akbarsigit/Pedotan-MachineLearning/blob/main/cropCNN.ipynb). Using  [Nutrient-Deficiency-Symptoms-in-Rice](https://www.kaggle.com/datasets/guy007/nutrientdeficiencysymptomsinrice)
 
 ## Model Performance
 Models | Accuracy | Val Accuracy
