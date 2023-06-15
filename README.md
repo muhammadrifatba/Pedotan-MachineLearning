@@ -19,14 +19,16 @@ Pedotan Machine Learning Repository for Bangkit Capstone Project. Building Machi
 We have 3 model in this repository
 ### Plant Disease Detection
 [Plant disease Detection ](https://github.com/akbarsigit/Pedotan-MachineLearning/blob/main/crop_disease_detection.ipynb) 
-(image classification) use InceptionV3 as the base model for transfer learning that taken from [Keras](https://keras.io/api/applications/inceptionv3/). The model also contain additional layer that received ouput from based model. The model had 36 node to define its 36 classification category.  [Plant Disease Classification Merged Dataset](https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset) that contain 18.96 GB images of various plant disease. 
+(image classification) use InceptionV3 as the base model for transfer learning that is taken from [Keras](https://keras.io/api/applications/inceptionv3/). The model also contains an additional layer that received output from the based model. The model had 36 node to define its 36 classification categories.  [Plant Disease Classification Merged Dataset](https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset) that contains 18.96 GB images of various plant diseases. 
 
 ### Nutrient Deficiency Detection
-- [Nutrient Deficiency Detection](https://github.com/akbarsigit/Pedotan-MachineLearning/blob/main/leafNutrient.ipynb). Using Densenet-121 for the base model and additional layer to  [Crop Recommendation Dataset](https://www.kaggle.com/datasets/siddharthss/crop-recommendation-dataset) 
+- [Nutrient Deficiency Detection](https://github.com/akbarsigit/Pedotan-MachineLearning/blob/main/leafNutrient.ipynb) use Densenet-121 for the base model and an additional layer to capture specific patterns for nutrient deficiency problems. This model can predict three macronutrients from the picture that is for N, P, and K nutrients. In the fine-tuning process, the pre-trained Densenet-121 model, initially trained on a large-scale dataset, is further optimized by training it on the Crop Recommendation Dataset ([Nutrient-Deficiency-Symptoms-in-Rice](https://www.kaggle.com/datasets/guy007/nutrientdeficiencysymptomsinrice)) available on Kaggle. This dataset contains a diverse collection of images representing various crops and their associated nutrient deficiencies. By fine-tuning the model on this dataset, it becomes more adept at accurately detecting and classifying nutrient deficiencies in crops.
+
   
 ### Ideal Farm Detection
-- [Ideal Farm Detection](https://github.com/akbarsigit/Pedotan-MachineLearning/blob/main/cropCNN.ipynb). Using  [Nutrient-Deficiency-Symptoms-in-Rice](https://www.kaggle.com/datasets/guy007/nutrientdeficiencysymptomsinrice)
+- [Ideal Farm Detection](https://github.com/akbarsigit/Pedotan-MachineLearning/blob/main/cropCNN.ipynb) utilizing a custom deep neural network architecture that analyzes various parameters such as pH levels, NPK nutrition, temperature, humidity, and rainfall density to predict the suitability of different crops for a given farm. By training the custom deep neural network on this [Crop Recommendation Dataset](https://www.kaggle.com/datasets/siddharthss/crop-recommendation-dataset), the model learns to correlate the provided parameters with the optimal conditions for various crops that predict up to five commodities.
 
+  
 ## Model Performance
 ### Plant Disease Detection
 #### Model Training Performance
